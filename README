@@ -1,0 +1,35 @@
+Out of curioisity, I did my research on keylogging and wanted to create one myself.  
+By no means is this code original or my intellectual property.
+This is for educational purposes only, however it is functional but not strong enough to be harmful
+This code uses python and a git repository by @moses-palmer "https://github.com/moses-palmer/pynput.git"
+
+Code Breakdown
+- Import pynput from "https://github.com/moses-palmer/pynput.git"
+This will allow us access to the user keyboard.
+- Import Key, and Listener
+This will store the keys the user presses as a variable "key" while "listener" is told to pay attention to the keys and store them 
+
+-Set the directory to where the log file will be saved, I want this in the same file so log_dir = ""
+
+-Next, config the logging style. I want the file containing the keys to be named "K3Y_l0g.txt" and setting the level to DEBUG, allows it to capture all types of input
+-Then format the times and messages so the log is clear and readable
+
+-There needs to be a funtion that stores each key to the log as its pressed, the on_press function takes the key from the user and stores it directly in the log.
+
+-Lastly enable the listener to capture all of this data
+
+-------------------------------------------------------
+
+Lessons learned
+ 
+1. I know how a keylogger functions, and have become more aware of spotting them and how to protect against it.
+2. Windows and Chrome automatically flag my file as a virus or PUP.
+3. I am able to bypass GMAIL by putting the file inside a google drive file.
+4. This keylogger will ONLY work if the user has weak Windows and Browser settings.
+5. IF I fully enable Windows and Browser anti-virus settings, I will be safe from ametuer keylogging attacks.
+6. Lastly, I discovered that keyloggers can be found in Task Manager and is easy to disable if aware.
+
+
+
+
+
